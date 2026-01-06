@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+}
+
+.app {
+  width: 700px;
+  margin: 50px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.builder {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+li {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
