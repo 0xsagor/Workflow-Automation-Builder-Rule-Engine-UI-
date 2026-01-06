@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Workflow Automation Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>Workflow Automation Builder</h1>
+
+  <div class="builder">
+    <input type="text" id="condition" placeholder="Condition (e.g. value > 10)">
+    <input type="text" id="action" placeholder="Action (e.g. Send Alert)">
+    <button onclick="addRule()">Add Rule</button>
+  </div>
+
+  <h3>Rules</h3>
+  <ul id="rules"></ul>
+
+  <h3>Test Value</h3>
+  <input type="number" id="testValue" value="0">
+  <button onclick="run()">Run Workflow</button>
+
+  <ul id="log"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
